@@ -13,23 +13,14 @@
             color: #333;
         }
 
-        #readme-container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            white-space: pre-line;
-        }
+       
     </style>
 </head>
 <body>
     <div id="readme-container"></div>
 
-    <script>
-        // Markdown content for the README
-        var readmeContent = `
+
+        
 # Voice-Controlled Assistant (Jarvis)
 
 This Python script creates a voice-controlled assistant using various libraries to perform tasks like fetching information from Wikipedia, opening websites, playing music, telling the time, and sending emails.
@@ -91,8 +82,5 @@ python voice_assistant.py
 Feel free to explore and enhance the assistant based on your requirements!
 `;
 
-        // Display the README content
-        document.getElementById('readme-container').innerText = readmeContent;
-    </script>
 </body>
 </html>
