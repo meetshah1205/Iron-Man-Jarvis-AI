@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voice Assistant README</title>
+    <title>Voice-Controlled Assistant README</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -20,13 +20,13 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
+            white-space: pre-line;
         }
     </style>
 </head>
 <body>
     <div id="readme-container"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         // Markdown content for the README
         var readmeContent = `
@@ -91,8 +91,8 @@ python voice_assistant.py
 Feel free to explore and enhance the assistant based on your requirements!
 `;
 
-        // Render the README content using marked.js
-        document.getElementById('readme-container').innerHTML = marked(readmeContent);
+        // Display the README content
+        document.getElementById('readme-container').innerText = readmeContent;
     </script>
 </body>
 </html>
